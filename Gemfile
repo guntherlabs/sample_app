@@ -24,6 +24,10 @@ group :test do
   gem 'rspec-rails'
   gem 'webrat'
   gem 'spork', '0.9.0.rc8'
+  gem 'autotest', '4.4.6'
+  gem 'autotest-rails-pure', '4.1.2'
+  gem 'autotest-fsevent', '0.2.4'
+  gem 'autotest-growl', '0.2.16'
 end
 
 gem 'jquery-rails'
